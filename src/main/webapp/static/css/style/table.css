@@ -1,0 +1,75 @@
+@charset "utf-8";
+/* CSS Document */
+*{ padding:0px;  margin:0px;}
+body{font-size:14px; background:#fff; line-height:22px;}
+
+h1,h2,h3,h4{ line-height:normal;}
+.table{ width:660px; position:relative;font-family:"宋体"; margin:0 auto;}
+.table_h{ width:980px; position:relative; left:50%; margin-left:-490px;}
+.table table{ width:100%; margin-bottom:20px; border:2px solid #000;color:#000;border-collapse:collapse;}
+.no-border table{border:0px}
+.table td{background:#fff; padding:3px;border-collapse:collapse;}
+.table td.tit{ font-size:20px; font-weight:bold; line-height:40px; padding:0px;border-bottom:2px solid #000;border-top:2px solid #000;}
+.table .t{ font-size:25px; text-align:center; line-height:50px; font-weight:bold;}
+
+.table input,.table textarea{ border:0px; background:#fff; width:100%; height:100%; background:#ebebeb; }
+.table input.border-bottom{ width:auto; text-align:center; border-bottom:1px solid #000;}
+.table input.w_100{ width:100%}
+.center{ text-align:center;}
+
+.table input.check{ width:auto; height:auto}
+.table input.in_zi{ width:auto;}
+.table input.in_zi_5{ width:5%;}
+.table input.in_zi_10{ width:10%;}
+.table input.in_zi_20{ width:20%;}
+.table input.in_zi_30{ width:30%;}
+.table input.in_zi_40{ width:40%;}
+.table input.in_zi_50{ width:50%;}
+.table input.in_zi_60{ width:60%;}
+.table input.in_zi_80{ width:80%;}
+.table h1{margin-bottom:10px;}
+.table input.in_num{width:18px; text-align:center; height:18px; border:1px solid #000;}
+
+body input.dayin{ font-size:1.5em;margin-bottom:0.5em;transition: background 0.3s ease-in-out 0s;  background:#386fd2; color:#fff;cursor:pointer;line-height:2em; font-family:"微软雅黑"; width:100%;clear:both;}
+.table_but{ text-align:center; margin-bottom:5px; width:98%; padding:1%; position:relative; margin-left:-1px; border:1px solid #ddd;}
+.table_but a{  color:#888; border:1px solid #666;border-radius:3px; padding:0.2em 0.5em 0.2em 0.5em; text-decoration:none; line-height:1.5em;font-weight:bold;}
+.table_but div{cursor: pointer; width:30%;margin:0 auto; margin-bottom:0.5em; line-height:3em; background:#eee; border-radius:3px; font-size:18px; font-family:"微软雅黑";}
+.table_but input.dayin:hover{ background:#2054b2;}
+.table .table_but{ visibility:hidden;}
+.table_on .table_but{ visibility:visible}
+@media all and (max-width: 720px) {
+.table_but div{ display:none;}
+}
+.table_page{}
+.noprint{display:none;}     
+.PageNext{page-break-after: always;}   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

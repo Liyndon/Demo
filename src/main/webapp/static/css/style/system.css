@@ -1,0 +1,57 @@
+/* CSS Document */
+@charset "utf-8";
+/* CSS Document */
+body, h1, h2, h3, h4, h5, h6, hr, p, blockquote, dl, dt, dd, ul, ol, li, pre, form, fieldset, legend, button, input, textarea, th, td { margin:0; padding:0; }
+body, button, input, select, textarea { font-family:"微软雅黑"; font-size:0.8em;}
+h1, h2, h3, h4, h5, h6{ font-size:100%; }
+address, cite, dfn, em, var { font-style:normal; }
+code, kbd, pre, samp { font-family:couriernew, courier, monospace; }
+ul, ol { list-style:none; }
+a { text-decoration:none; color:#333333; }
+a:hover{color:#2054b2; }
+sup { vertical-align:text-top; }
+sub{ vertical-align:text-bottom; }
+legend { color:#000; }
+fieldset, img { border:0; }
+button, input, select, textarea { font-size:100%; }
+table { border-collapse:collapse; border-spacing:0; }
+body{  width:100%; float:left; line-height:2em; font-family:"微软雅黑"; font-size:0.8em; overflow-x:hidden;}
+
+.w{ width:1000px; margin:0 auto; clear:both;}
+.w100{ width:100%; float:left; clear:both;}
+.fl{ float:left;}
+.fr{ float:right;}
+.clear{ clear:both;}
+
+
+.h{ width:100%;  float:left; border-bottom:1px dashed #ddd; height:0px; margin-top:0.5em; margin-bottom:0.5em; font-size:0px; overflow:hidden;}
+
+.site_under {margin: 0px auto; text-align: center; margin-top:20px;}
+body {background: url("../../image/bg.gif");  background-size:100% 100%;filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../../image/bg.png',sizingMethod='scale'); font: 12px/180% Arial, Helvetica, sans-serif, Verdana; margin: 0px; color: rgb(90, 90, 90); font-size-adjust: none; font-stretch: normal;}
+.fw100{ width:100%; float:left;}
+.site_under i{}
+.site_under p{ width:100%;  margin-top:-7%;}
+@media(max-width:1000px){
+.site_under{ width:100%; float:left;}
+.site_under p{ width:100%;  margin-top:-7.5%;}
+.w{ width:100%;}
+}
+@media(max-width:880px){
+.status-list .text{ width:65%;}
+.site_under{ width:100%; float:left;}
+.site_under p{ width:100%;  margin-top:-8.5%;}
+@media(max-width:700px){
+.site_under p{ width:100%;  margin-top:-10%;}
+}
+@media(max-width:600px){
+.site_under img{ width:65%;}
+.site_under p{ width:100%;  margin-top:-12.5%;}
+}
+@media(max-width:500px){
+.site_under img{ width:70%;}
+}
+@media(max-width:400px){
+.site_under img{ width:90%;}
+.site_under p{ width:100%;  margin-top:-16.5%;}
+	
+}

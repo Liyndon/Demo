@@ -1,0 +1,32 @@
+@charset "utf-8";
+/* CSS Document */
+
+.lein ul li{ width:100%; float:left;}
+.lein ul li p{ width:100%; float:left;}
+.lein ul li .ian li{ width:100%; float:left;}
+.lein ul li .ian li a { width:100%;}
+.m_guan{display: none;}
+.nemtn{ display:none;}
+.man_chuan{ width:120px;}
+.man_chuan_da{ margin-top:6%;}
+.mrnt_min{ display:none;}
+.ount_nran{ width:45%; margin:0 auto;}
+.out .outmt{  margin-right:0.5em;}
+
+.mrb ul li div{ width:250px;}
+.list_biaodan li div
+
+.list_biaodan li b{width:17%;}
+.list_biaodan li div input.input-text{width:80%;}
+.yonghui{width:13%;}
+.didian, .list_fabu div{ width:80%;}
+
+.shen{display: none;}
+.onen{width:80%; margin-left:20%;}
+.pl_in5{left:53%;}
+.men_table .input-ntn{width:98%;}
+.dateand{display: none;}
+.condition{width:20%;}
+.mailbox li b{width:100%; text-align: left;}
+.men_table .input-text{width:96%;}
+.promptExist{text-align: center;}

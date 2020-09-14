@@ -1,0 +1,152 @@
+@charset "utf-8";
+/* CSS Document */
+.menu_but{ display:block;}
+.top_menu .search_top .quyu{ display:block;}
+.w{ width:100%;}
+.y{
+-moz-box-shadow:0 0 0px 0px #0CC;  
+-webkit-box-shadow:0 0 0px 0px #0CC;  
+box-shadow:0 0 0px 0px #0CC;   
+}
+.search_dw .region-select-td {
+	width: 100px;
+}
+.search_dw .region-select {
+	width: 100px;
+}
+.search_dw .region-select .region-select-tip {
+	width: 80px;
+}
+.search_input .in_but_td{
+	width: 88px;
+}
+.search_input div.in_btn {
+	width: 88px;
+}
+#region-select-panel{
+	width:400px;
+	text-align: center;
+	margin-left: -200px;
+}
+#region-select-panel .regionTree{
+	height:300px;
+	margin: 0 auto;
+	text-align: left;
+	overflow: auto;
+}
+.menu_top{ display:none;}
+.search_dw{ width:90%;}
+
+.searh_list li p{ float:left; width:80%;}
+.sou .search_input{ width:98%; font-size:0.8em;margin-bottom:2em}
+.main_body{ margin-top:1em;}
+
+.s_show_t .w100{ width:100%; border-bottom:1px solid #ddd; margin-bottom:0.3em;}
+
+.infor_show .ico_but{ float:left;}
+.s_show_t .fr{ padding:0em;}
+.infor_show .s_show_t .fr{ margin:0.5em;}
+.infor_show .ico_but a span{ margin-left:0px; margin-right:10px;}
+
+.flow_zi{ width:100%;}
+.infor_show_basic li{ width:100%;}
+.infor_show_time p span{ display:block;}
+.ban_b ul li{ width:100%;}
+.ban_b ul li div{ width:73%;}
+.pl_zi{ max-width:67%;}
+input.pl_in2{ font-size:1.2em;}
+
+.tan{width:80%;left:50%; margin-left:-40%;}
+.list_zhuce{ width:70%;}
+.list_zhuce li div{ width:100%;}
+.wx_er,.wx_zi{ width:100%; text-align:center;}
+.list_biaodan .yzm input{ width:45%;}
+
+.yonghu{ display:none;}
+.list_biaodan li div input.input-text{ width:85%; float:left;}
+
+.show_img_b li{ float:left; overflow:hidden; margin:2%; margin-bottom:0px; width:96%;}
+
+.zt_wen li font{ display:none;}
+
+.article_last .article_right{ display:none;}
+.article_last .article_left{ width:98%; padding:1%;}
+.article_last .show_bs{ width:100%; padding:0px;}
+
+.list_fabu{ width:90%;}
+
+
+.menber_t h3{ width:96%; float:left; padding-left:2%;padding-right:2%;}
+.menber_t h3 span,.menber_t h3 b{ text-indent:0px;}
+.menber_t h3 b{display:block; float:right;}
+.menber_left li{ width:50%; border-bottom:0px; margin:0px; padding:0px; padding-bottom:5px;}
+.show_biaoge_b li a{ float:left; width:100%;}
+.yuyue .list_fabu div{ width:100%;}
+.list_biaodan li b{ width:100%; text-align:left;}
+
+.m_biaoge .m_tb1,.m_biaoge .m_tb3{ display:none;}
+.m_shoucang .sc_tb2{ display:none;}
+input.in{ width:98%;}
+.last_zi i{ display:none;}
+.menber_touxiang_tishi{ display:block; text-align:center; line-height:15em;}
+.menber_touxiang_all{ display:none;}
+
+.yzm img{ margin-top:0.5em; margin-left:0px;}
+
+.pc-weather{ display:none;}
+.piao .gohuiyuan,.piao .guanzhu,.piao .yjjy{
+	display:none;
+}
+.men_table .input-text{width:95%;}
+.men_table .remark-form{width: 95%; padding-left: 0px;}
+
+.menber_menu{ width:22%;}
+.menber_right{ width:75%}
+.menber_menu{ width:22%;}
+.menber_right{ width:75%}
+.man_tou{ width:255px; float:left; margin-left:2%; overflow:hidden; margin-right:2%;}
+.man_tou_pu li div{ padding:3%; width:50px;  border:1px solid #dedede;}
+.man_tou_pu li div img{ width:50px; }
+.man_chuan_da{ margin-top:3%;}
+.mtna_irn .status-list li:before{ margin-top:2.5%;}
+
+.len1{ width:130px; height:105px; float:left; background:url(../images/a1.png) no-repeat;}
+.len2{ width:130px; height:105px; float:left; background:url(../images/a2.png)  no-repeat;}
+.len3{ width:130px; height:105px; float:left; background:url(../images/a3.png) no-repeat;}
+.len4{ width:130px; height:105px; float:left; background:url(../images/a4.gif) no-repeat;}
+.ontm{ width:55%;}
+
+.ount_nran{ width:55%; margin:0 auto;}
+
+.mrb ul li div{ width:300px;}
+.mrb_text{ width:98%;}
+.mrb_tt{ width:98%;}
+.mrb_tene{width:100%;}
+
+.status-list .text{ width:65%;}
+
+.list_biaodan li b{width:17%; text-align: right;}
+.pl_in2{left:38%;}
+.userUpdateButton{width:20%;}
+.shoujian{ width:60%;}
+.issue ul li font{width:105px;}
+.men_table .input-ntn{width:104%;}
+.status-list .text{ width:70%;}
+
+.mailbox li b{width:80px;}
+
+.men_table .input-text{width:50%}
+.pl_in6{text-align: center; width:30%;left:45%;}
+.tally li{ width:21%;}
+
+
+
+
+
+
+
+
+
+
+
+

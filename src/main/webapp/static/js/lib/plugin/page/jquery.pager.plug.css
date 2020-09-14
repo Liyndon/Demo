@@ -1,0 +1,81 @@
+.pager-plugin-box ul{
+	clear: both;
+	text-align: center;
+}
+.pager-plugin-box ul li{
+	display:inline;
+	list-style-type: none;
+	cursor: pointer;
+	margin: 0px 3px;
+	transition: all 0.3s ease-in-out 0s;
+    white-space: nowrap;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+.pager-plugin-box .page-btn{
+	padding: 0px 3px;
+}
+.pager-plugin-box .page-item{
+	text-align: center;
+	padding: 0px 5px;
+}
+.pager-plugin-box .page-current-page{
+	background: #2a2a2a;
+    color: #fff;
+    border: 1px solid #2a2a2a;
+    cursor: default;
+}
+.pager-plugin-box .page-btn:hover,.pager-plugin-box .page-item:hover{
+	background: #2a2a2a;
+    color: #fff;
+    border: 1px solid #2a2a2a;
+}
+.pager-plugin-box .disabled{
+	background: #eee;
+	cursor: default;
+	color: #aaa;
+}
+.pager-plugin-box .disabled:hover{
+	background: #eee;
+	cursor: default;
+	color: #aaa;
+	border: 1px solid #ccc;
+}
+.pager-plugin-box .ellipsis{
+	cursor: default;	
+	border: 0px;
+}
+.pager-loader-overlay{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: 1000; /* 此处的图层要大于页面 */
+}
+.pager-loader-overlay-bg{
+    filter: alpha(opacity=0); /* IE的透明度 */
+    opacity: 0;  /* 透明度 */
+    width: 100%;
+    height: 100%;
+    background: #000;
+}
+.loader-text-box{
+	-webkit-box-shadow: #555 1px 0px 3px 0px;
+	-moz-box-shadow: #5559 1px 0px 3px 0px;
+	box-shadow: #555 1px 0px 3px 0px;
+	color: #000;
+    position: absolute;
+    z-index: 1000;
+    top: 50%;
+    left: 50%;
+    width:40px;
+    height:40px;
+    text-align:center;
+    line-height:30px;
+    border:2px solid #666;
+    margin-left:-20px;
+    margin-top:-20x;
+    background: url("loading32.gif") no-repeat center;
+    background-color:#fff;
+    
+}
+

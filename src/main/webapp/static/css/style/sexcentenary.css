@@ -1,0 +1,57 @@
+.menber_menu{ width:99%; padding:0.5%;float:left;}
+.menber_menu .menber_menu_t{ width:100%; padding:0px; background:#386fd2; color:#fff; position:relative;border-radius: 3px 3px 0 0;}
+.menber_menu .menber_menu_t span{ padding-left:0.5em;}
+.menber_menu .menber_menu_t b{ display:block;}
+.menber_left{ display:none; border-bottom: 1px solid #f1f1f1;}
+.menber_right{ width:98%; padding:1%;}
+.lein ul li{ width:31.3%; margin-top:1%; margin-right:1%; margin-left:1%;}
+.man_chuan{ width:90px;}
+.manr_bai{ width:90px;}
+.manr_bai div img{ width:90px;}
+.menber_menu_t_ne{ display:none;}
+.menber_menu .menber_menu_t_ne{ width:100%; padding:0px; background:#386fd2; color:#fff; position:relative;border-radius: 3px 3px 0 0;}
+.menber_menu .menber_menu_t_ne span{ padding-left:0.5em;}
+.menber_menu .menber_menu_t_ne b{ display:block;}
+.menber_menu_t_ne{ display:none;}
+.penr{ border-radius:0 0 0 0;}
+.ken_lrn_nen li{ padding-right:-0%; float:left;}
+.mtna_irn .status-list li:before{ margin-top:2.3%;}
+.lnr{ width:70%;}
+.lan{ width:50%;}
+.that_hen{ width:70%; }
+.that_hrn{ width:70%;}
+.ontm{ width:45%;}
+.out{ width:22%; margin-right:3em;}
+.ount_nran{ width:45%; margin:0 auto;}
+.out .outmt{ padding:0px 10px 0px 10px;}
+
+.mrb ul li div{ width:100%;}
+.mrb ul li b{ width:100%; text-align:left; margin-left:1%;}
+.mrb ul li font{ width:10px; float:left;}
+.mrb_text{ width:90%;}
+.mrb_tt{ width:90%;}
+
+.status-list .text{ width:66%;}
+.status-list .date{ width:100px; float:left;}
+.kuang_fake{width:100%; padding-bottom:20px;}
+
+.mingchen{ width:17%;}
+.mrb_tene{width:92%;}
+
+.searclr{ width:98%;}
+.mena_oen_ken{width:60%;}
+.list_biaodan li b{width:100%; text-align: left;}
+.list_biaodan li div input.input-text{width:99%;}
+.list_biaodan li div{width:96%;}
+.pl_in2{left:50%;margin-left:-11%;}
+.userUpdateButton{width:30%;}
+.list_zhuce{ width:85%;}
+.list_zhuce li div{ width:100%;}
+.input-text{ width:50%;}
+.shoujian{width:70%;}
+.issue{width:100%;}
+.issue ul li font{width:95px;}
+.onen{width:100%;margin-left:0px;}
+.men_table .input-ntn{width:99%;}
+.pl_in6{left:46%; width:35%;}
+.tally li{width:31%; margin-left:1%;}

@@ -1,0 +1,28 @@
+<ehcache xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:noNamespaceSchemaLocation="ehcache.xsd" updateCheck="false" name="shiroCache"
+	monitoring="autodetect" dynamicConfig="true">
+
+	<defaultCache maxElementsInMemory="10000" eternal="false"
+		timeToIdleSeconds="120" timeToLiveSeconds="120" overflowToDisk="false"
+		diskPersistent="false" diskExpiryThreadIntervalSeconds="120" />
+	<!-- 登录记录缓存 锁定5分钟 -->
+	<cache name="passwordRetryCache" maxEntriesLocalHeap="2000"
+		eternal="false" timeToIdleSeconds="300" timeToLiveSeconds="0"
+		overflowToDisk="false" statistics="true">
+	</cache>
+	<!-- 用户权限缓存10分钟 -->
+	<cache name="authorizationCache" maxEntriesLocalHeap="2000"
+		eternal="false" timeToIdleSeconds="600" timeToLiveSeconds="0"
+		overflowToDisk="false" statistics="true">
+	</cache>
+	<!-- 用户验证信息缓存1s,时间太长的话，用户一直被缓存着 -->
+	<cache name="authenticationCache" maxEntriesLocalHeap="2000"
+		eternal="false" timeToIdleSeconds="1" timeToLiveSeconds="0"
+		overflowToDisk="false" statistics="true">
+	</cache>
+
+	<cache name="shiro-activeSessionCache" maxEntriesLocalHeap="2000"
+		eternal="false" timeToIdleSeconds="3600" timeToLiveSeconds="0"
+		overflowToDisk="false" statistics="true">
+	</cache>
+</ehcache>

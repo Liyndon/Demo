@@ -1,0 +1,79 @@
+.pic-cut-uploader-content ul{
+	list-style: none;
+}
+.pic-cut-uploader-content ul li{
+	float: left;
+	margin: 5px 10px;
+}
+.jcrop-panel{
+	border: 1px solid #ccc;
+	padding: 1px;
+	background: #DBDDDF;
+}
+.jcrop-btn{
+	margin-top: 10px;
+}
+.preview-container {
+  overflow: hidden;
+}
+.preview-panel{
+  padding: 5px;
+  border: 1px rgba(0,0,0,.3) solid;
+  background-color: white;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  border-radius: 6px;
+  -webkit-box-shadow: 1px 1px 5px 2px rgba(0, 0, 0, 0.2);
+  -moz-box-shadow: 1px 1px 5px 2px rgba(0, 0, 0, 0.2);
+  box-shadow: 1px 1px 5px 2px rgba(0, 0, 0, 0.2);
+}
+.presize{
+	color: #555;
+	text-align: center;
+}
+.file-value{
+	visibility: hidden;
+}
+.upload-btn{
+	width: 50%;
+}
+.jcrop-btn .selecter{
+	float: left;
+}
+.jcrop-btn .uploader{
+	text-align:right;
+	float: right;
+}
+.uploader-cut-overlay{
+	background: #000;
+    filter: alpha(opacity=60); /* IE的透明度 */
+    opacity: 0.6;  /* 透明度 */
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    z-index: 3000; /* 此处的图层要大于页面 */
+}
+.uploader-cut-overlay .overlay-tip{
+	text-align: center;
+	color:#fff;
+	font-size:10px;
+	font-weight:bold;
+	position: relative;
+	top:50%;
+	margin-top: -7px;
+}
+.uploader-cut-overlay .overlay-tip span{
+	float:left;
+}
+.uploader-cut-overlay .overlay-tip .inout-icon-loader{
+	background: url("loaderc.gif") left no-repeat;
+	width: 21px;
+	height: 14px;
+	position: relative;
+	margin-left: 40%;
+}
+.uploader-cut-overlay .overlay-tip .tip-content{
+	height: 14px;
+}

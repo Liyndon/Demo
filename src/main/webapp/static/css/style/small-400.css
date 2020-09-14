@@ -1,0 +1,88 @@
+@charset "utf-8";
+/* CSS Document */
+
+.yonghu{ display:none;}
+.men_table .input-text{width:90%;}
+#region-select-panel{
+	width:90%;
+	text-align: center;
+	margin-left: -45%;
+	top:10%;
+}
+#region-select-panel .regionTree{
+	height:300px;
+	margin: 0 auto;
+	text-align: left;
+	overflow: auto;
+}
+.search_dw .region-select-td {
+	width: 80px;
+}
+.search_dw .region-select {
+	width: 80px;
+}
+.search_dw .region-select .region-select-tip {
+	width: 60px;
+}
+.search_input .in_but_td{
+	width: 60px;
+}
+.search_input div.in_btn {
+	width: 60px;
+}
+.lein ul li{ width:48%; margin-left:1%; margin-right:1%;}
+.nemtn{ display:none;}
+.man_chuan{ width:100%; margin-bottom:3%;}
+.man_chuan_da{ display:none; }
+.man_chuan dd{ display:none;}
+.man_tou{ width:100%;}
+.man_tou_pu li{ width:21%;}
+.man_tou_pu li div{ padding:3%; width:100%;  border:1px solid #dedede;}
+.man_tou_pu li div img{ width:100%; }
+.input_kan a{ width:50%; margin-left:25%;}
+.krn p{ width:100%; float:left; margin-left:2%;}
+.ieren{ padding:2%;}
+.pl3txt1 a{ width:100%; float:left;}
+.pl3txt1 span{ width:100%; float:left;}
+.lei{ display:none}
+.leu{ width:75px; float:left;}
+.status-list .date{  float:left; margin-left:-2.5%;}
+.status-list .week{ display:none;}
+.status-list li .orn{ width:92px;}
+.nrem{ display:none;}
+.mtna_irn .status-list li:before{ margin-top:2.5%;}
+.mena_oen_ken{ width:96%;}
+.mena_oen ul li div{ width:100%;}
+
+.lnr{ width:69%;}
+.lan{ width:50%;}
+.ontm{ width:60%;}
+.meyu ul li{ width:100%; float:left; margin-bottom:3%;}
+.make_text{ width:95%;}
+.ount_nran{ width:50%; margin:0 auto;}
+.banli{ display:none;}	
+.searclr{width:95%;}
+.sea .region-select-td{width:95px;}
+
+.sea .lem{ width:94px;}
+.search_input div.in_bne{width:70px;}
+.list_biaodan li b{ display:block; float:left; width:100%; text-align:left;}
+.tiaoshi{width:97%;}
+
+.infor_show_basic li span{width:95%;}
+.banli{display: none;}
+.issue ul li font{width:90px;}
+.express{display: none;}
+.long{marign-left:10px;}
+
+.sea .lem .region-select-tip{width:70px;}
+.tally li{ width:48%;margin-left:2%;}
+
+
+
+
+
+
+
+
+

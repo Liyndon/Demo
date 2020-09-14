@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+<!-- 加载配置属性文件 -->
+	<bean id="propertyConfigurer"
+		class="org.springframework.beans.factory.config.PropertyPlaceholderConfigurer">
+		<property name="locations">
+			<list>
+				<value>classpath:MessageQueue.properties</value>
+			</list>
+		</property>
+	</bean>
+	
+<!-- alibaba 消息中间件 -->
+	<!-- 消息生产者 -->
+	 <bean id="producer" class="com.aliyun.openservices.ons.api.bean.ProducerBean" init-method="start" destroy-method="shutdown">
+        <property name="properties" > <!--生产者配置信息-->
+            <props>
+                <prop key="ProducerId">${ProducerId}</prop> <!--请替换XXX-->
+                <prop key="AccessKey">${AccessKey}</prop>
+                <prop key="SecretKey">${SecretKey}</prop>
+            </props>
+        </property>
+    </bean>
+    
+    <!-- 事务消息配置 -->
+    <bean id="localTransactionChecker" class="com.core.mq.DemoLocalTransactionChecker"></bean>
+    
+    <bean id="transactionProducer" class="com.aliyun.openservices.ons.api.bean.TransactionProducerBean" init-method="start" destroy-method="shutdown">
+        <property name="properties" > <!--事务消息生产者配置信息-->
+             <props>
+                <prop key="ProducerId">${ProducerId}</prop> <!--请替换XXX-->
+                <prop key="AccessKey">${AccessKey}</prop>
+                <prop key="SecretKey">${SecretKey}</prop>
+            </props>
+        </property>
+        <property name="localTransactionChecker" ref="localTransactionChecker"></property>
+    </bean>
+    
+    <!-- 消费者 -->
+    <bean id="msgListener" class="com.core.mq.DemoMessageListener"></bean> <!--Listener配置-->
+    <bean id="consumer" class="com.aliyun.openservices.ons.api.bean.ConsumerBean" init-method="start" destroy-method="shutdown">
+        <property name="properties" > <!--消费者配置信息-->
+            <props>
+                <prop key="ConsumerId">${ConsumerId}</prop> <!--请替换XXX-->
+                <prop key="AccessKey">${AccessKey}</prop>
+                <prop key="SecretKey">${SecretKey}</prop>
+                <!--将消费者线程数固定为50个.
+                <prop key="ConsumeThreadNums">50</prop>
+                -->
+            </props>
+        </property>
+        <property name="subscriptionTable">
+            <map>
+                <entry value-ref="msgListener">
+                    <key>
+                        <bean class="com.aliyun.openservices.ons.api.bean.Subscription">
+                            <property name="topic" value="lixyon"/>
+                            <property name="expression" value="*"/>
+                        </bean>
+                    </key>
+                </entry>
+                <!--更多的订阅添加entry节点即可-->
+            </map>
+        </property>
+    </bean>
+
+</beans>

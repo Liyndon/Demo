@@ -1,0 +1,11 @@
+@charset "utf-8";
+/* CSS Document */
+@media screen and (max-width:1000px) {
+@import “style/small-big.css” ;
+}
+@media screen and (max-width:880px) {
+@import “style/small-Middle.css” ;
+}
+@media screen and (max-width:360px) {
+@import “style/small-small.css” ;
+}

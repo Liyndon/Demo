@@ -1,0 +1,101 @@
+@charset "utf-8";
+/* CSS Document */
+#region-select-panel{
+	width:90%;
+	text-align: center;
+	margin-left: -45%;
+	top:0px;
+}
+#region-select-panel .regionTree{
+	height:300px;
+	margin: 0 auto;
+	text-align: left;
+	overflow: auto;
+}
+.search_dw .region-select-td {
+	width: 80px;
+}
+.search_dw .region-select {
+	width: 80px;
+}
+.search_dw .region-select .region-select-tip {
+	width: 60px;
+}
+.search_input .in_but_td{
+	width: 60px;
+}
+.search_input div.in_btn {
+	width: 60px;
+}
+body{}
+.w{ width:100%;}
+.k1{ width:96%; margin-left:2%; margin-right:2%;border-bottom:2px solid #ccc; float:left; background:#fff; border-top:2px solid #386fd2;}
+.k2{ width:96%; margin-left:2%; margin-right:2%; border-bottom:1px solid #ccc; float:left; background:#fff; border-top:1px solid #386fd2;}
+.menu_top{ display:none;}
+.menu_but{ display:block}
+.s_show_b{ display:none;}
+
+.pl_zi{ max-width:60%;}
+input.pl_in2{ width:30%; position:relative; margin-top:1em; left:50%; margin-left:-15%; font-size:1em;}
+.flow_zi{ width:100%;}
+.infor_show_basic{ width:99.5%;}
+a.ico_dy{ display:none;}
+.infor_show .s_show_t .z_ico{ width:85%;}
+
+.ban_b ul li div{ width:65%;}
+.infor_show_step ul li{width:100%;}
+
+.show_img_b{ border:0px;}
+
+
+.cs_hot span{ display:block;}
+.cs_xuan_select b{ display:block;}
+
+.article_hot{ display:none;}
+.yonghu{ display:none;}
+.list_biaodan li{ padding-top:0px;}
+
+.list_zhuce li div{ width:95%;}
+
+.list_biaodan li div input.in{ width:100%;}
+.didian, .list_fabu div{ width:95%;}
+.reveal-modal{top:auto; top:3em;}
+.reveal-modal span{ display:block;}
+
+.main_body .ico_but b a{ margin:0em;margin-bottom:0.5em; margin-left:0em;}
+.s_show_t .fr{ display:nonxe;}
+.yuyue .list_fabu div{ width:95%;}
+table.table_form tr td input{ width:90%;}
+.list_zhuce_new label{ width:100%; text-align:left;}
+
+.show_msg{ width:20em;border-radius:5px; background:#fff; min-height:200px; position:absolute; left:50%; margin-left:-10em; top:20%;}
+.tan{width:90%;left:50%; margin-left:-45%; top:auto; margin-top:3em;}
+.list_biaodan li.formid_18 b{ display:none;}
+.tan_5{ top:5%;}
+.search_jieguo span{ display:block;}
+.infor_kuaijie a{ display:block; clear:both;}
+
+.list_zhuce li div div{right:0.2em;}
+.zhuce_xuan ul{ width:100%;}
+.men_table .input-text{
+	width: 90%;
+}
+.man_tou{ width:100%;}
+.man_tou_pu{ width:100%;}
+.man_tou dd{ width:100%;}
+.status-list li .orn{ width:84px;}
+.status-list .date{  float:left; margin-left:-2.5%; width:90px;}
+.mtna_irn .status-list li:before{ margin-top:3.5%;}
+
+.that_hen{ width:95%;}
+.that_hrn{ width:95%;}
+.ount_nran{ width:60%; margin:0 auto;}
+.sea .lem .region-select-tip{width:55px;}
+.status-list .text{ width:63%;}
+.sea .lem{width:80px;}
+.sea .region-select-td{width:80px;}
+.searclr{width:98%;}
+.search_input div.in_bne{width:50px;}
+.bdsharebuttonbox{width:85px;}
+.list_biaodan li b{width:100%;text-align: left;}
+.mena_oen_ken{width:95%;}

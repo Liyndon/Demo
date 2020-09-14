@@ -1,0 +1,118 @@
+/* 首页 */
+.main_header{
+	background : url('../image/main/head-bg.png');
+	height: 60px;
+	line-height : 60px;
+	padding-left : 20px;
+	color : #fff;
+	overflow: hidden;
+}
+#unitHomePageConfig .require{
+	color: red;
+}
+.logo_top{
+	width:300px;
+	height:60px;
+	float: left;
+	padding-left:75px;
+	background: url("../image/main/logo_top.png") no-repeat left;
+	font-size: 18px;
+	font-weight: bold;
+	font-family: '微软雅黑'
+}
+.login_oper{
+	text-align: right;
+	padding-right: 10px;
+	font-size: 12px;
+}
+.login_oper div{
+	height: 60px;
+}
+.user_info_content{
+	line-height: 60px;
+	float:right;
+}
+.user_photo_content{
+	width:145px;
+	padding:11px 2px;
+	text-align:left;
+	display: inline-block;
+}
+.user_photo_content img{
+	border: 1px solid #fff;
+	width:38px;
+	height:38px;
+	float: right;
+}
+.user_photo_content div{
+	float: left;line-height: 40px;
+}
+.one-line-grid-toolbar{
+	padding:2px;
+}
+.head_split{
+	background: url("../image/main/split.png") no-repeat center;
+	height:50px;
+	width: 12px;
+	display: inline-block;
+}
+.login_oper a{
+	text-decoration: none;
+	color: #fff;
+}
+.login_oper a:hover{
+	color: #fdee02;
+}
+.orgSet{
+	background: #fff;
+}
+
+/* 去掉a标签选中时的虚线边框 */
+a{blr:expression(this.onFocus=this.blur());}
+a:focus{outline:none;}
+a.hidefocus{outline:none}
+
+/* 密码修改 */
+form .label{
+	text-align: right;
+}
+#modifyPasswordPanel .btns{
+	padding-top: 10px;
+	text-align: center;
+	vertical-align: bottom;
+}
+form .content input,form .content textarea{
+	width:300px;
+	resize:none;
+}
+/*公用*/
+.require-flag{
+	color: red;	
+}
+.import-content-box{
+	text-align: left;
+	position: relative;
+	top:30%;
+	width: 60%;
+	margin: 0px auto;
+}
+.import-content-box div {
+	padding-bottom:10px;
+	color: #555;
+}
+.import-content-box .btn{
+	line-height: 40px;
+	padding:13px 20px;
+	vertical-align: middle;
+	font-weight: bold;
+}
+.import-content-box .button{
+	cursor: pointer;
+}
+.number{padding:20px 10px; width:100%; float:left; border:1px solid #ccc; }
+
+.number td{width:25px;background:#fff;padding:10px; border-collapse:collapse;}
+.number table{width:30%; color:#000;border-collapse:collapse;}
+.account{text-align: right; width:65px;}
+.number table{border:0px}
+.amend{ width:95%; margin: 0 auto;}

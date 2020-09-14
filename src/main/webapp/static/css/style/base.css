@@ -1,0 +1,47 @@
+@charset "utf-8";
+/* CSS Document */
+body, h1, h2, h3, h4, h5, h6, hr, p, blockquote, dl, dt, dd, ul, ol, li, pre, form, fieldset, legend, button, input, textarea, th, td { margin:0; padding:0; }
+body, button, input, select, textarea { font-family:"微软雅黑"; font-size:0.8em;}
+h1, h2, h3, h4, h5, h6{ font-size:100%; }
+address, cite, dfn, em, var { font-style:normal; }
+code, kbd, pre, samp { font-family:couriernew, courier, monospace; }
+ul, ol { list-style:none; }
+a { text-decoration:none; color:#333333; }
+a:hover{color:#2054b2; }
+sup { vertical-align:text-top; }
+sub{ vertical-align:text-bottom; }
+legend { color:#000; }
+fieldset, img { border:0; }
+button, input, select, textarea { font-size:100%; }
+table { border-collapse:collapse; border-spacing:0; }
+body{ background:#fff url(../../image/img/bk.jpg) repeat; width:100%; float:left; line-height:2em; font-family:"微软雅黑"; font-size:0.8em; overflow-x:hidden;}
+
+.w{ width:1000px; margin:0 auto; clear:both;}
+.hu{
+	-moz-border-radius: 5px; 
+	/* Gecko browsers */
+	-webkit-border-radius: 5px; 
+	/* Webkit browsers */
+	border-radius:5px; 
+}
+.w100{ width:100%; float:left; clear:both;}
+.fl{ float:left;}
+.fr{ float:right;}
+.clear{ clear:both;}
+.y{
+	-moz-box-shadow:5px 0 2px 1px #666; 
+	-webkit-box-shadow:5px 0 2px 1px #666; 
+	box-shadow:5px 0 2px 1px #666; 
+}
+.nei_y{
+	-moz-box-shadow:1px 1px 10px #ddd inset;              
+    -webkit-box-shadow:1px 1px 10px #ddd inset;           
+    box-shadow:1px 1px 10px #ddd inset;
+}
+.filter{
+filter:alpha(opacity=90); /*IE滤镜，透明度50%*/
+-moz-opacity:0.9; /*Firefox私有，透明度50%*/
+opacity:0.9;/*其他，透明度50%*/
+}
+.h{ width:100%;  float:left; border-bottom:1px dashed #ddd; height:0px; margin-top:0.5em; margin-bottom:0.5em; font-size:0px; overflow:hidden;}
+

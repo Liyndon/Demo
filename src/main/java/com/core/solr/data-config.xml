@@ -1,0 +1,88 @@
+<dataConfig>   
+ <dataSource   
+        type="JdbcDataSource"   
+        driver="com.mysql.jdbc.Driver"   
+        url="jdbc:mysql://localhost:3306/nstcrm"   
+        user="root"   
+        password="admin"/>   
+ <document name="pm_person">   
+    <entity name="person" pk="id" query="select * from pm_person">     
+        <field column="id" name="id"/>  
+        <field column="code" name="code"/>  
+        <field column="chName" name="chName"/>  
+        <field column="enName" name="enName"/>  
+        <field column="nickName" name="nickName"/>      
+        <field column="birthdate" name="birthdate"/>  
+        <field column="height" name="height"/>  
+        <field column="email" name="email"/>  
+        <field column="mobile" name="mobile"/>  
+        <field column="workPhone" name="workPhone"/>  
+        <field column="homePhone" name="homePhone"/>  
+        <field column="address" name="address"/>  
+        <field column="postal" name="postal"/>      
+        <field column="idNumber" name="idNumber"/>  
+         <entity name="workProv" query="select chName,enName from sm_province where id='${person.workProv}'">  
+            <field column="chName" name="workProvchName"/>  
+            <field column="enName" name="workProvenName"/>  
+         </entity>  
+         <entity name="workCity" query="select chName,enName from sm_city where id='${person.workCity}'">  
+            <field column="chName" name="workCitychName"/>  
+            <field column="enName" name="workCityenName"/>  
+         </entity>  
+         <entity name="houseProv" query="select chName,enName from sm_province where id='${person.houseProv}'">  
+            <field column="chName" name="houseProvchName"/>  
+            <field column="enName" name="houseProvenName"/>  
+         </entity>  
+         <entity name="houseCity" query="select chName,enName from sm_city where id='${person.houseCity}'">  
+            <field column="chName" name="houseCitychName"/>  
+            <field column="enName" name="houseCityenName"/>  
+         </entity>  
+          <entity name="origProv" query="select chName,enName from sm_province where id='${person.origProv}'">  
+            <field column="chName" name="origProvchName"/>  
+            <field column="enName" name="origProvenName"/>  
+         </entity>  
+         <entity name="origCity" query="select chName,enName from sm_city where id='${person.origCity}'">  
+            <field column="chName" name="origCitychName"/>  
+            <field column="enName" name="origCityenName"/>  
+         </entity>  
+        <field column="experience" name="experience"/>  
+        <entity name="compId" query="select chFname,enFname from cm_company where id='${person.compId}'">  
+            <field column="chFname" name="compIdchFname"/>  
+            <field column="enFname" name="compIdenFname"/>  
+         </entity>  
+         <entity name="industry" query="select chName,enName from sm_industry where id='${person.industry}'">  
+            <field column="chName" name="industrychName"/>  
+            <field column="enName" name="industryenName"/>  
+         </entity>  
+         <entity name="post" query="select chName,enName from sm_post where id='${person.post}'">  
+            <field column="chName" name="postchName"/>  
+            <field column="enName" name="postenName"/>  
+         </entity>  
+         <entity name="subPost" query="select chName,enName from sm_subpost where id='${person.subPost}'">  
+            <field column="chName" name="subPostchName"/>  
+            <field column="enName" name="subPostenName"/>  
+         </entity>  
+        <field column="postRemark" name="postRemark"/>  
+        <field column="departRemark" name="departRemark"/>  
+        <field column="salaryMonth" name="salaryMonth"/>  
+        <field column="salaryOfYear" name="salaryOfYear"/>  
+        <field column="salaryOfMonth" name="salaryOfMonth"/>  
+        <field column="bonus" name="bonus"/>  
+        <field column="allowance" name="allowance"/>  
+        <field column="stock" name="stock"/>  
+        <field column="salaryRemark" name="salaryRemark"/>  
+        <field column="expectLocation" name="expectLocation"/>  
+        <field column="expectIndustry" name="expectIndustry"/>  
+        <field column="expectPost" name="expectPost"/>  
+        <field column="selfAssessment" name="selfAssessment"/>  
+        <field column="completion" name="completion"/>  
+        <field column="addressEn" name="addressEn"/>  
+        <field column="departRemarkEn" name="departRemarkEn"/>  
+        <field column="postRemarkEn" name="postRemarkEn"/>  
+        <field column="salaryRemarkEn" name="salaryRemarkEn"/>  
+        <field column="language" name="language"/>  
+        <field column="selfAssessmentEn" name="selfAssessmentEn"/>  
+        <field column="overseaLocation" name="overseaLocation"/>  
+    </entity>   
+  </document>   
+</dataConfig>
