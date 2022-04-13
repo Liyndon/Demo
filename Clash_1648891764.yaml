@@ -21,13 +21,6 @@ proxies:
     password: 162c13bd-70dd-3eef-bfe7-0870acf33c51
     sni: gz-cm-kl.klee.store
   -
-    name: V0卢森堡紧急联络用节点丨1x
-    type: trojan
-    server: gz-cm-kl.klee.store
-    port: 11277
-    password: 162c13bd-70dd-3eef-bfe7-0870acf33c51
-    sni: gz-cm-kl.klee.store
-  -
     name: '🇯🇵 V0日本公益节点丨不保证速度和稳定性'
     type: trojan
     server: gz-cm-kl.klee.store
